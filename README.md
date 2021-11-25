@@ -1,3 +1,5 @@
+https://github.com/goitacademy/react-homework/blob/master/homework-01/README.pl.md  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
