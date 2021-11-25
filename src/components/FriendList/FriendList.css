@@ -1,0 +1,38 @@
+.friend-list {
+  width: 250px;
+  margin: 30px auto;
+  background-color: rgb(212, 214, 220);
+  border-radius: 2%;
+  padding: 8px;
+}
+
+.item {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 5px;
+  align-items: center;
+  box-shadow: 3px 5px 10px rgb(42, 36, 36);
+
+  /* justify-content: center; */
+}
+
+.status {
+  background-color: green;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.statusGone {
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.avatar {
+  margin-right: 25px;
+  margin-left: 25px;
+}
