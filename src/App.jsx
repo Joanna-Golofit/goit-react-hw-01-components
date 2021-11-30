@@ -1,11 +1,11 @@
 import "./App.css";
-import user from "./components/Profile/user.json";
 import Profile from "./components/Profile/Profile";
-import data from "./components/Statistics/data.json";
 import Statistics from "./components/Statistics/Statistics";
-import friends from "./components/FriendList/friends.json";
 import FriendList from "./components/FriendList/FriendList";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
+import user from "./components/Profile/user.json";
+import data from "./components/Statistics/data.json";
+import friends from "./components/FriendList/friends.json";
 import transactions from "./components/TransactionHistory/transactions.json";
 
 function App() {
@@ -20,10 +20,11 @@ function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
+      {/* // kiedy mamy takie same klucze to wystarczy: */}
+      {/* <Profile {...user} /> */}
       <Statistics title="Upload stats" stats={data} />
 
-
-      <TransactionHistory items={transactions}/>
+      <TransactionHistory items={transactions} />
       {/* //   <header className="App-header">
     //     <p>
     //       Edit <code>src/App.js</code> and save to reload.
